@@ -98,6 +98,35 @@ h2:after {
 	color: #e67e22;
 	display: block;
 	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.icon-small {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	color: #e67e22;
+	font-size: 120%;
+	line-height: 120%;
+	/* Secrets to align text and icons */
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+/* ----------Links------------*/
+a:link,
+a:visited {
+	color: #e67e22;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #e37e22;
+	transition: all .2s;
+}
+
+a:hover,
+a:active {
+	color: #555;
+	border-bottom: 1px solid transparent;
 }
 
 /* ----------Buttons------------*/
@@ -278,8 +307,24 @@ header {
 	margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+	border: 0;
+}
+
 .btn-app img {
 	height: 50px;
 	width: auto;
 	margin-right: 10px;
+}
+
+/* ----------Cities------------*/
+.box img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.city-feature {
+	margin-bottom: 5px;
 }
